@@ -125,6 +125,8 @@ I'll be organizing the plugins over time. Please submit PRs if you have any othe
 
 * [Gamecube DSP](https://github.com/dolphin-emu/gcdsp-ida): This project adds support for the DSP present in the Gamecube and the Wii to IDA, the Interactive Disassembler [1]. This allows easy analyze of a DSP ucode, handling cross-references, control flow, and so on.
 
+* [genmc](https://github.com/patois/genmc): Genmc is an IDAPython script/plugin hybrid that displays Hexrays decompiler microcode, which can help in developing microcode plugins.
+
 * [Gensida](https://github.com/lab313ru/Gensida): IDA debugger plugin for Sega Genesis / Megadrive ROMs based on Gens ReRecordings emulator modifications.
 
 * [Geolocator](https://github.com/techbliss/ida_pro_http_ip_geolocator): Lookup IP's and http/https adresses, using google maps, and MaxMind databases.
@@ -249,6 +251,8 @@ many other things like known strings and anti-debugging code which can be also m
 
 * [IFL](https://github.com/hasherezade/ida_ifl): Interactive Functions List is an user-friendly way to navigate between functions and their references.
 
+* [ifred](https://github.com/Jinmo/ifred): IDA command palette & further
+
 * [ioctl_plugin](https://github.com/sam-b/ioctl_plugin): A tool to help when dealing with IOCTL codes and Windows driver IOCTL dispatch functions.
 
 * [IPyIDA](https://github.com/eset/ipyida): PyIDA is a python-only solution to use a IPython console in the context of IDA Pro. It spawns an IPython kernel that you can connect to with `ipython console --existing` in your shell or by opening a *QT Console* window in IDA Pro with `<Shift-.>`
@@ -273,6 +277,8 @@ Labeless provides easy to use dynamic dumping tool, which supports automatic on-
 * [MadNES](https://github.com/patois/MadNES): This plugin exports IDA names to FCEUXD SP symbols.
 
 * [MazeWalker](https://github.com/0xPhoeniX/MazeWalker): Toolkit for enriching and speeding up static malware analysis. MazeWalker’s goal is to reduce malware analysis time by automating runtime data collection and better visualization eventually helping a researcher to concentrate on static analysis and less on its dynamic part.
+
+* [MC68K Processor Model Extension](https://github.com/LucienMP/idapro_m68k): This is a sample plugin for extending gdb support for step-over for the M68K, and to enable type information support so you can press "y" on functions and have the parameters propagate inside and back out of the function.
 
 * [mipslocalvars](https://github.com/devttys0/ida/tree/master/plugins/mipslocalvars): Names stack variables used by the compiler for storing registers on the stack, simplifying stack data analysis (MIPS only)
 
